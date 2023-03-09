@@ -15,6 +15,32 @@
 </head>
 
 <body>
+    <!-- Header -->
+
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>S</span>ébastien <span>O</span>livain</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" data-after="Accueil">Accueil</a></li>
+                        <li><a href="#services" data-after="Services">Services</a></li>
+                        <li><a href="#skills" data-after="Compétences">Compétences</a></li>
+                        <li><a href="#projects" data-after="Projets">Projets</a></li>
+                        <li><a href="#about" data-after="Profil">Profil</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fin Header -->
+
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero container">
@@ -22,7 +48,7 @@
                 <h1>Bonjour,<span></span></h1>
                 <h1>Je suis Sébastien <span></span></h1>
                 <p>Développeur Web et Mobile <span></span></p>
-                <a href="#" type="button" class="cta">Portfolio</a>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
             </div>
         </div>
     </section>
@@ -78,6 +104,55 @@
         </div>
     </section>
     <!-- Fin de la Section Services -->
+
+    <!-- Section Compétences -->
+    <section id="skills">
+        <div class="skills container">
+            <div class="skill-top">
+                <h1 class="section-title">Compétences</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sapiente nemo eius ea tempore quam,
+                    molestiae, iusto consequuntur minus exercitationem qui reiciendis! Repellat iure unde debitis nemo
+                    illum corporis quidem.</p>
+            </div>
+            <div class="skill-bottom">
+                <div class="skill-item">
+                    <h2>Back End</h2>
+                    <p><img src="src/icons8-sql-50.png" alt="logo php">
+                        <img src="src/icons8-logo-php-50.png" alt="logo sql">
+                        <img src="src/icons8-symfony-is-a-php-web-application-framework-50.png" alt="logo symfony">
+                        <img src="src/icons8-laravel-50.png" alt="logo laravel">
+                    </p>
+                </div>
+
+                <div class="skill-item">
+                    <h2>Front End</h2>
+                    <p><img src="src/icons8-html-5-50.png" alt="logo html">
+                        <img src="src/icons8-css3-50.png" alt="logo css">
+                        <img src="src/icons8-javascript-50.png" alt="logo js">
+                        <img src="src/icons8-vue-js-50.png" alt="logo vue js">
+                    </p>
+                </div>
+
+                <div class="skill-item">
+                    <h2>Développement Mobile</h2>
+                    <p><img src="src/icons8-dart-language-50.png" alt="logo dart">
+                        <img src="src/icons8-flutter-50.png" alt="logo flutter">
+                        <img src="src/icons8-firebase-50.png" alt="logo firebase">
+                    </p>
+                </div>
+
+                <div class="skill-item">
+                    <h2>Divers</h2>
+                    <p><img src="src/icons8-git-50.png" alt="logo git">
+                        <img src="src/icons8-github-50 (1).png" alt="logo github">
+                        <img src="src/icons8-visual-studio-code-2019-50.png" alt="logo vscode">
+                        <img src="src/icons8-linux-50.png" alt="logo linux">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la Section Compétences -->
 
 
     <!-- Section Projets -->
@@ -168,12 +243,12 @@
                     aspect à ma carrière.
                     J'ai donc choisi ce fabuleux milieu qu'est le Développement, qui me passionnait depuis quelques
                     années déjà.<br>
-                    J'ai alors dans un premier temps suivi la formation de Développeur Web et Web mobile durant laquelle
+                    J'ai dans un premier temps suivi la formation de Développeur Web et Web mobile durant laquelle
                     j'ai appris
                     les bases du métier et acquis de solides compétences.
                     J'ai également depuis la fin de la formation et l'obtention du titre professionnelle (niveau 5
                     équivalent Bac +2)
-                    chercher à approfondir mes connaissances en me formant en autodidacte au développement
+                    cherché à approfondir mes connaissances en me formant en autodidacte au développement
                     d'applications mobiles.
                 </p>
 
@@ -221,7 +296,9 @@
     <!-- Footer -->
     <section id="footer">
         <div class="footer container">
-            <div class="brand"><h1><span>S</span>ébastien <span>O</span>livain</h1></div>
+            <div class="brand">
+                <h1><span>S</span>ébastien <span>O</span>livain</h1>
+            </div>
             <h2>Votre partenaire Web et Mobile</h2>
             <div class="social-icon">
                 <div class="social-item">
@@ -241,6 +318,8 @@
         </div>
     </section>
     <!-- Fin Footer -->
+
+    <script src="app.js"></script>
 </body>
 
 </html>
