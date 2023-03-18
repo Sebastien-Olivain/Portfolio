@@ -342,6 +342,7 @@ p{
 }
 
 #services .service-item {
+    height: 300px;
     flex-basis: 80%;
     display: flex;
     align-items: flex-start;
@@ -386,8 +387,13 @@ p{
 #services .service-item p{
     color: rgb(0, 0, 0);
     text-align: left;
+    font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.7rem;
+}
+
+#services h1{
+    color: crimson;
 }
 /* Fin Section Services */
 
@@ -466,6 +472,10 @@ p{
 
 #skills img{
     padding-left: 20px;
+}
+
+#skills h1{
+    color: crimson;
 }
 /* Fin Section Compétences */
 
@@ -553,6 +563,10 @@ p{
 #projects .project-item:hover .project-img img{
     transform: scale(1.1);
 }
+
+#projects .section-title{
+    color: crimson;
+}
 /* Fin Section Projets */
 
 
@@ -614,6 +628,10 @@ p{
     border: 7px solid crimson;
     z-index: -1;
 }
+
+#about h1{
+    color: crimson;
+}
 /* Fin Section Profil */
 
 /* Section Contact */
@@ -664,6 +682,10 @@ p{
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
+}
+
+#contact h1{
+    color: crimson;
 }
 /* Fin Section Contact */
 
