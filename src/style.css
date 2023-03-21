@@ -529,6 +529,12 @@ p{
     font-weight: 500;
 }
 
+#projects .project-info a{
+    font-size: 4rem;
+    font-weight: 500;
+    color: white;
+}
+
 #projects .project-info h2{
     font-size: 1.8rem;
     font-size: 500;
@@ -537,6 +543,7 @@ p{
 
 #projects .project-info p{
     color: rgb(255, 255, 255);
+    font-size: 1.2rem;
 }
 
 #projects .project-img{
@@ -553,7 +560,7 @@ p{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #000000b0;
+    background-color: #00000075;
     opacity: .7;
 }
 
